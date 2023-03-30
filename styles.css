@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+}
+.container {
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.header {
+    background-color: red;
+    text-align: center;
+}
+
+.saudacao {
+    text-align: center;
+}
+
+.body-text {
+    width: 100%;
+    display: flex;
+}
+
+.about {
+    text-align: center;
+    width: 50%;
+}
+
+.photo {
+    text-align: center;
+    width: 50%;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px gray;
+  }
+
+.button {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+/* RESPONSIVIDADE*/
+
+@media (max-width: 580px) {
+    .body-text {
+        align-items: center;
+    }
+    .body-text {
+       flex-direction: column; 
+    }
+
+    .about {
+        width: 100%;
+    }
+    .photo {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 581px) and (max-width: 920px) {
+
+}
+
+@media (min-width: 920px) {
+   
+}
