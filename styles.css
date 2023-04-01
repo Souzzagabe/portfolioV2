@@ -187,7 +187,7 @@ img {
 @media (max-width: 580px) {
     .saudacao {
         max-width: 500px;
-        margin: 29px 0px 0px 20px;
+        margin: 10px 0px 0px 20px;
     }
 
     .hello {
@@ -208,7 +208,7 @@ img {
 
     .about {
         width: 100%;
-        margin: 0px 0px 30px 10px;
+        margin: 0px 0px 0px 10px;
         font-size: 12px;
         padding: 16px;
     }
