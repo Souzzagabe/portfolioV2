@@ -104,14 +104,16 @@ img {
     animation: slideTop 1s ease forwards;
     animation-delay: 1.8s;
     cursor: pointer;
+
 }
 .button a {
     color: white;
     text-decoration: none;
 }
-.button::hover {
-   
-    
+.button:hover {
+    background: linear-gradient(45deg,#3cf,  #f06, #3cf);
+    transition: background-color 0.8s;
+    filter: blur(1px);
 }
 
 .social {
